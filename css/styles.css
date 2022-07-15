@@ -46,17 +46,18 @@ hr {
 }
 
 /* cabeçalho */
-/* #header {
-    border: 1px solid black;
-} */
+#header {
+    position: fixed;
+    height: auto;
+    padding-block: 1.5rem;
+}
 
-#header nav {
-    height: 6rem;
-    /* border: 1px solid green; */
+#header nav.nav-bar {
+    margin-bottom: 1.5rem;
 }
 
 #header nav .logo {
-    width: 50%;
+    width: 45%;
 }
 
 /* navegação 01 */
@@ -81,6 +82,20 @@ hr {
 }
 
 /* navegação 02 */
+#header nav.nav-bar-02 {
+    margin-top: 1.5rem;
+}
+
+#header nav.nav-bar-02 ul.list-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header nav.nav-bar-02 li a {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #221e35;
+}
 
 
 

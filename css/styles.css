@@ -8,6 +8,13 @@
 }
 
 /* variáveis */
+:root {
+    --header-height: 11rem;
+
+    --principal-color: #221e35;
+    --second-color: #e73739;
+    ----normal-text: #060606;
+}
 
 
 html {
@@ -45,11 +52,36 @@ hr {
     border-color: #e73739;
 }
 
+main {
+    padding-top: calc(var(--header-height) + 2rem);
+}
+
+section {
+    padding-block: 4rem;
+    border: 1px solid violet;
+}
+
+.section-subtitle {
+    text-transform: uppercase;
+    color: var(--principal-color);
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+span {
+    color: var(--second-color);
+}
+
+/* classes adicionadas com Javascript */
+
+
 /* cabeçalho */
 #header {
     position: fixed;
-    height: auto;
+    height: var(--header-height);
     padding-block: 1.5rem;
+    background-color: #f6f6f6;
+    box-shadow: 0 2px 5px #8879d3;
 }
 
 #header nav.nav-bar {
@@ -89,6 +121,7 @@ hr {
 #header nav.nav-bar-02 ul.list-menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #header nav.nav-bar-02 li a {
@@ -96,6 +129,59 @@ hr {
     font-weight: 700;
     color: #221e35;
 }
+
+/* quem somos */
+#quem-somos .section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+#quem-somos h1 {
+    color: var(--principal-color);
+    text-align: center;
+    line-height: 150%;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#quem-somos img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#quem-somos p {
+    font-size: 1.5rem;
+    color: var(----normal-text);
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px #8879d3;
+
+}
+
+#quem-somos button {
+    /* background-color: var(--principal-color); */
+    text-transform: uppercase;
+    font-weight: 700;  
+    border: none;  
+}
+
+#quem-somos button i {
+    color: var(--principal-color);
+    font-size: 1.8rem;
+    padding-inline: 0.5rem;
+}
+
+#quem-somos button a {
+    color: var(--principal-color);
+}
+
 
 
 

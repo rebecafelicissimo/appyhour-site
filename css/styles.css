@@ -81,7 +81,7 @@ span {
     height: var(--header-height);
     padding-block: 1.5rem;
     background-color: #f6f6f6;
-    box-shadow: 0 2px 5px #8879d3;
+    box-shadow: 0 2px 5px rgba(34, 30, 53, 0.5);
 }
 
 #header nav.nav-bar {
@@ -233,6 +233,80 @@ button {
     line-height: 150%;
 }
 /* /cards */
+
+/* como funciona */
+#como-funciona .section-box .estabelecimento {
+    margin-block: 2rem 4rem;
+    border: 1px solid darkorchid;
+}
+
+#como-funciona .section-box .estabelecimento .estabelecimento-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#como-funciona .section-box .estabelecimento .estabelecimento-title h3,
+#como-funciona .section-box .usuario h3 {
+    margin-bottom: 0;
+    color: var(--second-color);
+    font-size: 1.2rem;
+}
+
+#como-funciona .section-box .estabelecimento .estabelecimento-title i {
+    font-size: 1.5rem;
+}
+
+#como-funciona .section-box .estabelecimento p,
+#como-funciona .section-box .usuario p {
+    margin-block: 2rem;
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+
+#como-funciona .section-box .estabelecimento h3, #como-funciona .section-box .usuario h3 {
+    margin-bottom: 2rem;
+}
+
+#como-funciona .section-box .estabelecimento h2,
+#como-funciona .section-box h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 150%;
+}
+
+#como-funciona .section-box .estabelecimento button {
+    /* background-color: var(--principal-color); */
+    text-transform: uppercase;
+    font-weight: 700;  
+    border: none; 
+    display: block;
+    margin: 0 auto; 
+}
+
+#como-funciona .section-box .estabelecimento button i {
+    color: var(--principal-color);
+    font-size: 1.8rem;
+    padding-inline: 0.5rem;
+}
+
+#como-funciona .section-box .estabelecimento button a {
+    color: var(--principal-color);
+}
+
+#como-funciona .section-box .usuario .selos-lojas {
+    display: flex;
+}
+
+#como-funciona .section-box .usuario .selos-lojas a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#como-funciona .section-box .usuario .selos-lojas a img {
+    width: 80%;
+}
 
 
 

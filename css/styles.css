@@ -237,7 +237,6 @@ button {
 /* como funciona */
 #como-funciona .section-box .estabelecimento {
     margin-block: 2rem 4rem;
-    border: 1px solid darkorchid;
 }
 
 #como-funciona .section-box .estabelecimento .estabelecimento-title {
@@ -307,6 +306,44 @@ button {
 #como-funciona .section-box .usuario .selos-lojas a img {
     width: 80%;
 }
+
+/*  contato */
+#contato .section-box p {
+    margin-block: 2rem;
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+
+#contato .section-box ul {
+    display: flex;    
+    flex-direction: column;
+    gap: 3rem;
+    margin-block: 2rem 4rem;
+}
+
+#contato .section-box ul li {
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(34, 30, 53, 0.6);
+    /* background-color: var(--principal-color); */
+    text-transform: uppercase;
+    font-weight: 700;  
+    border: none; 
+    display: block;
+    margin: 0 auto; 
+}
+
+#contato .section-box ul li i {
+    color: var(--principal-color);
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+#contato .section-box ul li a {
+    color: var(--principal-color);
+}
+
+
 
 
 

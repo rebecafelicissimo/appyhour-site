@@ -162,8 +162,52 @@
 
                     <h2>Se preferir entramos em contato com você!</h2>
                     <p>Preencha os campos do formulário abaixo e aguarde alguém da nossa equipe.</p>
-                </div>
 
+                    <form action="cadastro.php" method="POST" autocomplete="on" id="formulario">
+                        
+                        <!-- <legend>Alguma coisa</legend> -->
+                        <div class="formulario-conteudo">
+                            <label for="nome">Nome Completo:*</label>
+                            <input type="text" name="nome" id="nome" required autocomplete="name">
+                        </div>
+
+                        <div class="formulario-conteudo">
+                            <label for="email">E-mail:*</label>
+                            <input type="email" name="email" id="email" required autocomplete="email">
+                        </div>
+
+                        <div class="formulario-conteudo">
+                            <label for="telefone">Telefone:*</label>
+                            <input type="tel" name="telefone" id="telefone" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx">
+                            <!-- expressão regular simples, para telefone ^\(\d{2}\)\d{4,5}-\d{4}$ -->
+                        </div>
+
+                        <div class="formulario-conteudo">
+                            <label for="cidade">Cidade:*</label>
+                            <input type="text" name="cidade" id="cidade" required>
+                        </div>
+
+                        <div class="formulario-conteudo">
+                            <label for="estado">Estado:*</label>
+                            <input type="text" name="estado" id="estado" required placeholder="Sergipe ou SE">
+                        </div>
+
+                        <div class="formulario-conteudo">
+                            <label for="instagram">Instagram do  estabelecimento:</label>
+                            <input type="text" name="instagram" id="instagram" required placeholder="@seuinstagram">
+                        </div>     
+
+                        <div class="checkbox">
+                            <label for="checkbox-aceito">Li e aceito o <span><a href="#">Termo de uso</a></span> e a <span><a href="#">Política de Privacidade</a></span> do site ao enviar meus dados.</label>
+                            <input type="checkbox" name="checkbox-aceito" id="checkbox-aceito">
+                        </div>
+
+                        <div class="formulario-botao">
+                            <input id="enviar" type="submit" value="Enviar Dados">
+                            <input id="limpar" type="reset" value="Limpar">
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>

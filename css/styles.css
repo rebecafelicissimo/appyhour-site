@@ -343,6 +343,83 @@ button {
     color: var(--principal-color);
 }
 
+/* Formulário de Contato */
+#formulario {
+    color: var(--principal-color);
+    padding: 1.5rem;
+}
+
+#formulario .formulario-conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+#formulario .formulario-conteudo label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+#formulario .formulario-conteudo input {
+    height: 3rem;
+    border: none;
+    outline: none;
+    text-indent: 1rem;
+    box-shadow: 2px 2px 4px rgba(34, 30, 53, 0.6);
+}
+
+#formulario .checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+#formulario .checkbox label {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#formulario .checkbox label a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--second-color);
+}
+
+#formulario .checkbox input {
+    cursor: pointer;
+}
+
+#formulario .formulario-botao {
+    display: flex;
+    justify-content: space-around;
+}
+
+#formulario .formulario-botao input {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(34, 30, 53, 0.6);
+    cursor: pointer;
+}
+
+#formulario .formulario-botao input#enviar:hover {
+    background-color: rgb(4, 211, 4);
+    color: #f6f6f6;
+    font-weight: 700;
+}
+
+#formulario .formulario-botao input#limpar:hover {
+    background-color: var(--second-color);
+    color: #f6f6f6;
+    font-weight: 700;
+}
+
+
+
+
 
 
 

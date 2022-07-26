@@ -77,3 +77,255 @@
         font-size: 1.3rem;
     }
 }
+
+@media (min-width: 601px) and (max-width: 768px) {    
+    /* cabeçalho */
+    #header nav .logo {
+        width: 25%;
+    }
+
+    /* navegação 02 */
+    #header nav.nav-bar-02 li a {
+        font-size: 1.6rem;
+    }
+
+    /* quem somos */
+    #quem-somos .section-box .box-queries {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-between;    
+    }
+
+    #quem-somos h1 {
+        color: var(--principal-color);
+        text-align: center;
+        line-height: 150%;
+        font-size: 3rem;
+    }
+
+    #quem-somos img {
+        width: 40%;
+    }
+
+    #quem-somos p {
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-align: center;
+        color: var(----normal-text);
+        line-height: 150%;
+        margin-bottom: 2rem;
+    }
+
+    /* beneficios */
+    #beneficios .section-box h2.title {
+        font-size: 2.5rem;
+    }
+
+    /* como funciona */
+    #como-funciona .section-box h2.title {
+        font-size: 2.5rem;
+    }
+
+    #como-funciona .section-box .usuario .selos-lojas a img {
+        width: 50%;
+    }
+
+    /*  contato */
+    #contato .section-box h2 {
+        font-size: 2.5rem;
+        line-height: 0;
+    }
+
+    /* Formulário de Contato */
+    #formulario {
+        width: 40rem;
+        margin: 0 auto;
+        color: var(--principal-color);
+        padding: 1.5rem;
+    }
+
+    /* Rodapé */
+    footer ul li a {
+        font-size: 1.3rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    footer h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {    
+    /* cabeçalho */
+    #header nav .logo {
+        width: 20%;
+    }
+
+    /* navegação 02 */
+    #header nav.nav-bar-02 li a {
+        font-size: 1.6rem;
+    }
+
+    /* quem somos */
+    #quem-somos .section-box .box-queries {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-between;    
+    }
+
+    #quem-somos h1 {
+        color: var(--principal-color);
+        text-align: center;
+        line-height: 150%;
+        font-size: 3rem;
+    }
+
+    #quem-somos img {
+        width: 35%;
+    }
+
+    #quem-somos p {
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-align: center;
+        color: var(----normal-text);
+        line-height: 150%;
+        margin-bottom: 2rem;
+    }
+
+    /* beneficios */
+    #beneficios .section-box h2.title {
+        font-size: 2.5rem;
+    }
+
+    /* como funciona */
+    #como-funciona .section-box h2.title {
+        font-size: 2.5rem;
+    }
+
+    #como-funciona .section-box .usuario .selos-lojas a img {
+        width: 35%;
+    }
+
+    /*  contato */
+    #contato .section-box h2 {
+        font-size: 2.5rem;
+        line-height: 0;
+    }
+
+    /* Formulário de Contato */
+    #formulario {
+        width: 40rem;
+        margin: 0 auto;
+        color: var(--principal-color);
+        padding: 1.5rem;
+    }
+
+    /* Rodapé */
+    footer ul li a {
+        font-size: 1.3rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    footer h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {    
+    /* cabeçalho */
+    #header nav .logo {
+        width: 15%;
+    }
+
+    /* navegação 02 */
+    #header nav.nav-bar-02 li a {
+        font-size: 1.6rem;
+    }
+
+    /* quem somos */
+    #quem-somos .section-box .box-queries {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-around;    
+    }
+
+    #quem-somos h1 {
+        color: var(--principal-color);
+        text-align: center;
+        line-height: 150%;
+        font-size: 4rem;
+    }
+
+    #quem-somos img {
+        width: 30%;
+    }
+
+    #quem-somos p {
+        font-size: 2.3rem;
+        font-weight: 700;
+        text-align: center;
+        color: var(----normal-text);
+        line-height: 150%;
+        margin-bottom: 2rem;
+    }
+
+    /* beneficios */
+    #beneficios .section-box h2.title {
+        font-size: 3rem;
+    }
+
+    /* como funciona */
+    #como-funciona .section-box h2.title {
+        font-size: 3rem;
+    }
+
+    #como-funciona .section-box .usuario .selos-lojas {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    
+    #como-funciona .section-box .usuario .selos-lojas a {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    #como-funciona .section-box .usuario .selos-lojas a img {
+        width: 35%;
+    }
+
+    /*  contato */
+    #contato .section-box h2 {
+        font-size: 3rem;
+        line-height: 0;
+    }
+
+    /* Formulário de Contato */
+    #formulario {
+        width: 50rem;
+        margin: 0 auto;
+        color: var(--principal-color);
+        padding: 1.5rem;
+    }
+
+    /* Rodapé */
+    footer ul li a {
+        font-size: 1.3rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    footer h3 {
+        font-size: 1.3rem;
+    }
+}

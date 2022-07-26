@@ -14,10 +14,13 @@ PARTE 1 : Menu Fechado
 
 PARTE 2: Menu Clicado
 
-
 quem somos
 benefícios
 como funciona
 contato
 
 entrar
+
+
+footer
+- criar botão de back to top

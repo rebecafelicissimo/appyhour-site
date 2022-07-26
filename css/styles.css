@@ -82,6 +82,8 @@ span {
     padding-block: 1.5rem;
     background-color: #f6f6f6;
     box-shadow: 0 2px 5px rgba(34, 30, 53, 0.5);
+    width: 100%;
+    height: auto;
 }
 
 #header nav.nav-bar {
@@ -292,6 +294,7 @@ button {
 
 #como-funciona .section-box .usuario .selos-lojas {
     display: flex;
+    margin-top: 4rem;
 }
 
 #como-funciona .section-box .usuario .selos-lojas a {

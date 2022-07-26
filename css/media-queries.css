@@ -169,6 +169,12 @@
         font-size: 1.6rem;
     }
 
+    #header nav.nav-bar-02 ul.list-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     /* quem somos */
     #quem-somos .section-box .box-queries {
         display: flex;
@@ -247,6 +253,12 @@
     /* navegação 02 */
     #header nav.nav-bar-02 li a {
         font-size: 1.6rem;
+    }
+
+    #header nav.nav-bar-02 ul.list-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     /* quem somos */
